@@ -1,0 +1,53 @@
+{{ 'section-carousel.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+  <div class="main-carousel" data-flickity='{ "wrapAround": true }'>
+    <div class="carousel-cell">
+      <img
+        loading="lazy"
+        height="auto"
+        width="auto"
+        src="{{section.settings.image | image_url: width: 500 }}"
+        alt="{{ section.settings.image.alt }}"
+      >
+    </div>
+    <div class="carousel-cell">
+        <img
+        loading="lazy"
+        height="auto"
+        width="auto"
+        src="{{section.settings.image | image_url: width: 500 }}"
+        alt="{{ section.settings.image.alt }}"
+      >
+    </div>
+    <div class="carousel-cell">
+        <img
+        loading="lazy"
+        height="auto"
+        width="auto"
+        src="{{section.settings.image | image_url: width: 500 }}"
+        alt="{{ section.settings.image.alt }}"
+      >
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Carousel",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Carousel"
+    }
+  ]
+}
+{% endschema %}
