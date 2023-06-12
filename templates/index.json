@@ -21,7 +21,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Hi, I’m Roy Saucedo.<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--19312199827731__4364e51a-e50f-428a-999c-1420735fe7d5-16865866504f9ebf7d-1": {
@@ -44,8 +44,62 @@
         "padding_bottom": 40
       }
     },
+    "7842d17e-4f26-46f6-8731-06050d90cd88": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-0",
+        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-1",
+        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "bf98fa3b-c6e0-49f5-8262-f90cd7da7e0d": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Projects",
         "heading_size": "h0",
@@ -63,6 +117,9 @@
     },
     "7cf27b6c-56a7-4933-a5a5-77a453fcd71f": {
       "type": "contact-form",
+      "custom_css": [
+
+      ],
       "settings": {
         "heading": "Contact",
         "heading_size": "h0",
@@ -75,6 +132,7 @@
   "order": [
     "a5617c53-b57f-40d0-9857-82f6e1dbbade",
     "4364e51a-e50f-428a-999c-1420735fe7d5",
+    "7842d17e-4f26-46f6-8731-06050d90cd88",
     "bf98fa3b-c6e0-49f5-8262-f90cd7da7e0d",
     "7cf27b6c-56a7-4933-a5a5-77a453fcd71f"
   ]
