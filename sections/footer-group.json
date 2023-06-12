@@ -1,1 +1,47 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"58a07c97-5e7f-4bd7-a94b-798adf8274eb":{"type":"link_list","settings":{"heading":"","menu":"main-menu"}}},"block_order":["58a07c97-5e7f-4bd7-a94b-798adf8274eb"],"settings":{"color_scheme":"background-1","newsletter_enable":false,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":false,"show_social":true,"enable_country_selector":false,"enable_language_selector":false,"payment_enable":false,"show_policy":false,"margin_top":36,"padding_top":100,"padding_bottom":20}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "af3439f3-73f1-455d-9680-a1052abc2dce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-Roy.png",
+            "image_width": 50,
+            "alignment": ""
+          }
+        },
+        "58a07c97-5e7f-4bd7-a94b-798adf8274eb": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "main-menu"
+          }
+        }
+      },
+      "block_order": [
+        "af3439f3-73f1-455d-9680-a1052abc2dce",
+        "58a07c97-5e7f-4bd7-a94b-798adf8274eb"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 36,
+        "padding_top": 100,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
