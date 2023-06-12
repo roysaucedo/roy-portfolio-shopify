@@ -1,19 +1,35 @@
 {{ 'section-carousel.css' | asset_url | stylesheet_tag }}
 
+<script>
+    var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  contain: true,
+  wrapAround: true
+});
+
+</script>
+
 <div class="page-width">
-  <div class="main-carousel" data-flickity='{ "wrapAround": true, "contain": true }'>
+  <div class="main-carousel">
     {% for block in section.blocks %}
-        <div class="carousel-cell project-card">
-      <img
-        loading="lazy"
-        height="auto"
-        width="auto"
-        src="{{ block.settings.image | image_url: width: 450 }}"
-        alt="{{ block.settings.image.alt }}"
-      >
-      <h3>Project Name</h3>
-      <p>Project summary sentence</p>
+    <div class="carousel-cell project-card">
+      <div class="card-img-{{ block.id }}">
+
+      </div>
+      <h3>{{ block.settings.project }}</h3>
+      <p>{{ block.settings.project_summary }}</p>
     </div>
+    <style>
+        .card-img-{{ block.id }} {
+            background-image: url("{{ block.settings.image | image_url: width: 450 }}");
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+    
+    </style>
     {% endfor %}
     
   </div>
@@ -40,6 +56,17 @@
           "type": "image_picker",
           "id": "image",
           "label": "Card Image"
+        },
+        {
+          "type": "text",
+          "id": "project",
+          "label": "Project Name",
+          "default": "Project Name"
+        },
+        {
+          "type": "richtext",
+          "id": "project_summary",
+          "label": "Project Summary"
         }
       ]
     }
