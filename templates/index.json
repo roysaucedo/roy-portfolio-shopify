@@ -1,31 +1,37 @@
 {
   "sections": {
-    "4364e51a-e50f-428a-999c-1420735fe7d5": {
-      "type": "rich-text",
+    "e3af33bf-4731-4cdd-96af-53dd1019f70b": {
+      "type": "image-with-text",
       "blocks": {
-        "template--19312199827731__4364e51a-e50f-428a-999c-1420735fe7d5-16865866504f9ebf7d-0": {
+        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-0": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Hi, I’m Roy 👋<\/strong>",
             "heading_size": "h0"
           }
         },
-        "template--19312199827731__4364e51a-e50f-428a-999c-1420735fe7d5-16865866504f9ebf7d-1": {
+        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>I'm a frontend developer based in Orange County, CA. <br\/><br\/>I have been building websites and coding for 3 years. My curiosity led me into the world of UX and web development after years of working in digital marketing.<br\/><br\/>When I built my first \"Hello World!\" website, I instantly got hooked and never looked back. I combine my design savvy with technical skills to create user-friendly, responsive web experiences.<\/p>"
+            "text": "<p>I'm a frontend developer based in Orange County, CA. <br\/><br\/>I have been building websites and coding for 3 years. My curiosity led me into the world of UX and web development after years of working in digital marketing.<br\/><br\/>When I built my first \"Hello World!\" website, I instantly got hooked and never looked back. I combine my design savvy with technical skills to create user-friendly, responsive web experiences.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--19312199827731__4364e51a-e50f-428a-999c-1420735fe7d5-16865866504f9ebf7d-0",
-        "template--19312199827731__4364e51a-e50f-428a-999c-1420735fe7d5-16865866504f9ebf7d-1"
+        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-0",
+        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "full_width": true,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -134,7 +140,7 @@
     }
   },
   "order": [
-    "4364e51a-e50f-428a-999c-1420735fe7d5",
+    "e3af33bf-4731-4cdd-96af-53dd1019f70b",
     "a5617c53-b57f-40d0-9857-82f6e1dbbade",
     "7842d17e-4f26-46f6-8731-06050d90cd88",
     "bf98fa3b-c6e0-49f5-8262-f90cd7da7e0d",
