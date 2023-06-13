@@ -23,8 +23,9 @@
         "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_31_5.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
