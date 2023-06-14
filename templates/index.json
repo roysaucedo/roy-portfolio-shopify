@@ -25,7 +25,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Frame_31_5.png",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
