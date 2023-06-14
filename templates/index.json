@@ -59,7 +59,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/open-bible-on-white.jpg",
-            "title": "Bible Buddy",
+            "title": "Bible Buddy - Personal Project",
             "text": "<p>Bible Buddy is community built project that creates free resources to help you grow your relationship with God.<\/p>",
             "link_label": "View Project",
             "link": "https:\/\/www.biblebuddy.co\/"
@@ -79,8 +79,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/alex-lvrs--ZvC04d-xLw-unsplash_1.jpg",
-            "title": "Supplement Bundle Landing Page",
-            "text": "<p>A custom e-commerce experience for their best-selling product, the \"Ultimate Lifestyle Transformation\".<\/p>",
+            "title": "Ultimate Lifestyle Transformation -Supplement Bundle Landing Page",
+            "text": "<p>A custom e-commerce landing page for their best-selling product, the \"Ultimate Lifestyle Transformation\".<\/p>",
             "link_label": "View Project",
             "link": "https:\/\/ult-pack.vercel.app\/"
           }
