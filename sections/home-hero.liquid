@@ -1,13 +1,17 @@
-<div class="p-10 mx-auto max-w-4xl w-full bg-blue-100">
-  {% comment %} CONTENT {% endcomment %}
-  <div>
-    <h1 class="text-center uppercase font-bold text-4xl md:text-6xl">{{ section.settings.h1 }}</h1>
-    <p>{{ section.settings.p }}</p>
-    <a href="{{ section.settings.url }}">
+<div class="py-40 mx-auto w-full bg-gradient-to-tr from-white from-50% via-cyan-100 to-green-200">
+  <div class="page-width mx-auto">
+    {% comment %} CONTENT {% endcomment %}
+  <div class="md:w-3/4">
+    <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-6">{{ section.settings.h1 }}</h1>
+    <p class="mb-10">{{ section.settings.p }}</p>
+    <a class="no-underline text-white bg-black px-8 py-4 rounded-lg" href="{{ section.settings.url }}">
       {{ section.settings.btn_text }}
     </a>
 
   </div>
+
+  </div>
+  
  {% comment %} VIDEO/IMAGE {% endcomment %}
   <div>
 
