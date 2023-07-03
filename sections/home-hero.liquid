@@ -1,14 +1,14 @@
 <div class="py-16 md:py-40 mx-auto w-full {{ section.settings.bg }}">
-  <div class="page-width mx-auto flex flex-col md:flex-row md:items-center">
+  <div class="page-width mx-auto flex flex-col md:flex-row md:items-center {% if section.settings.img_left %}md:flex-row-reverse{% endif %}">
     {% comment %} CONTENT {% endcomment %}
     <div class="py-16 flex justify-center flex-col md:w-1/2 md:pr-6">
       <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.h1 }}</h1>
-      <p class="text-center md:text-left mb-16 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.p }}</p>
-      {% if section.settings.btn_text %}
-      <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0" href="{{ section.settings.url }}">
+      <span class="md:text-left mb-16 {% if section.settings.bg == "bg-black" %}text-white{% endif %} {% if section.settings.p_mobile_text_center %}text-center{% endif %}">{{ section.settings.p }}</span>
+      <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 {% if section.settings.btn_text == blank %}hidden{% endif %}" href="{{ section.settings.url }}">
         {{ section.settings.btn_text }}
       </a>
-      {% endif %}
+  
+    
   
     </div>
     {% comment %} VIDEO/IMAGE {% endcomment %}
@@ -34,6 +34,12 @@
   },
   "settings": [
     {
+      "type": "checkbox",
+      "id": "img_left",
+      "label": "Image Left",
+      "default": false
+    },
+    {
       "type": "select",
       "id": "bg",
       "options": [
@@ -48,7 +54,7 @@
     ],
       "label": "Background Option",
       "default": "bg-gradient"
-    },  
+    },    
     {
       "type": "text",
       "id": "h1",
@@ -56,10 +62,15 @@
       "default": "Place Heading Here"
     },
     {
-      "type": "textarea",
+      "type": "checkbox",
+      "id": "p_mobile_text_center",
+      "label": "Text Align Center",
+      "default": true
+    },
+    {
+      "type": "richtext",
       "id": "p",
-      "label": "Paragraph",
-      "default": "Place Pargraph Here"
+      "label": "Paragraph"
     },
     {
       "type": "url",
