@@ -1,12 +1,15 @@
-<div class="py-16 md:py-40 mx-auto w-full bg-gradient-to-tr from-white from-50% via-cyan-100 to-green-200">
+<div class="py-16 md:py-40 mx-auto w-full {{ section.settings.bg }}">
   <div class="page-width mx-auto flex flex-col md:flex-row md:items-center">
     {% comment %} CONTENT {% endcomment %}
     <div class="py-16 flex justify-center flex-col md:w-1/2 md:pr-6">
-      <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-8">{{ section.settings.h1 }}</h1>
-      <p class="text-center md:text-left  mb-16">{{ section.settings.p }}</p>
+      <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.h1 }}</h1>
+      <p class="text-center md:text-left mb-16 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.p }}</p>
+      {% if section.settings.btn_text %}
       <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0" href="{{ section.settings.url }}">
         {{ section.settings.btn_text }}
       </a>
+      {% endif %}
+  
     </div>
     {% comment %} VIDEO/IMAGE {% endcomment %}
     <div class="md:w-1/2">
@@ -23,13 +26,29 @@
 
 {% schema %}
 {
-  "name": "Home - Hero",
+  "name": "Home - Image + Text",
   "class": "section",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "select",
+      "id": "bg",
+      "options": [
+      {
+        "value": "bg-gradient",
+        "label": "Gradient"
+      },
+      {
+        "value": "bg-black",
+        "label": "Black"
+      }
+    ],
+      "label": "Background Option",
+      "default": "bg-gradient"
+    },  
     {
       "type": "text",
       "id": "h1",

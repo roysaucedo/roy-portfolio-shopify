@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
+
+.bg-gradient {
+    @apply bg-gradient-to-tr from-white from-50% via-cyan-100 to-green-200
+}
+
 @tailwind utilities;
