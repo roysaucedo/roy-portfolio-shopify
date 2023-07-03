@@ -3,15 +3,27 @@
     "e03a656a-c6f9-42f2-a48c-0401b3292f3e": {
       "type": "home-hero",
       "settings": {
+        "bg": "bg-gradient",
         "h1": "Shopify Developer WITH SAUCE 🔥",
         "p": "Hi, I’m Roy Saucedo. 👋 I'm a Shopify Developer from Orange County, CA. I have been working on the platform for 4 years. \nI am passionate about helping merchants crush their business goals by customizing their Shopify websites. 🏆",
         "link": "",
         "btn_text": "Explore My Projects →",
         "img": "shopify:\/\/shop_images\/image_3_5.png"
       }
+    },
+    "0a1f1c09-33a5-426e-922c-ca78215347c2": {
+      "type": "home-hero",
+      "settings": {
+        "bg": "bg-gradient",
+        "h1": "Place Heading Here",
+        "p": "Place Pargraph Here",
+        "link": "",
+        "btn_text": "Button Text"
+      }
     }
   },
   "order": [
-    "e03a656a-c6f9-42f2-a48c-0401b3292f3e"
+    "e03a656a-c6f9-42f2-a48c-0401b3292f3e",
+    "0a1f1c09-33a5-426e-922c-ca78215347c2"
   ]
 }
