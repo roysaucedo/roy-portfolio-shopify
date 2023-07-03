@@ -601,8 +601,32 @@ video {
   display: none;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .transform {
@@ -736,6 +760,18 @@ video {
 @media (min-width: 768px) {
   .md\:w-3\/4 {
     width: 75%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:py-40 {
