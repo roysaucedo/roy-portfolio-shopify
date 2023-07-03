@@ -346,7 +346,7 @@
         {%- endif -%}
       </a> {% endcomment %}
       <a class="text-center text-[14px] no-underline text-black border-2 border-slate-500 px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 max-sm:hidden" href="{{ section.settings.url }}">
-        Let’s Connect →
+        {{ section.settings.btn_txt }}
       </a>
     </div>
   </header>
@@ -681,6 +681,17 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 20
+    },
+    {
+      "type": "url",
+      "id": "url",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "btn_txt",
+      "label": "Button Text",
+      "default": "Let’s Connect →"
     }
   ],
   "blocks": [
