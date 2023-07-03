@@ -1,160 +1,17 @@
 {
   "sections": {
-    "3e1125ad-304e-4f56-9c7e-9b3538e968a9": {
+    "e03a656a-c6f9-42f2-a48c-0401b3292f3e": {
       "type": "home-hero",
       "settings": {
-        "h1": "Place Heading Here",
-        "p": "Place Pargraph Here",
+        "h1": "Shopify Developer WITH SAUCE 🔥",
+        "p": "Hi, I’m Roy Saucedo. 👋 I'm a Shopify Developer from Orange County, CA. I have been working on the platform for 4 years. \nI am passionate about helping merchants crush their business goals by customizing their Shopify websites. 🏆",
         "link": "",
-        "btn_text": "Button Text"
-      }
-    },
-    "e3af33bf-4731-4cdd-96af-53dd1019f70b": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Hi, I’m Roy 👋<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>I'm a frontend developer based in Orange County, CA. ☀️<br\/><br\/>I have been building websites and coding for 3 years. My curiosity led me into the world of UX and web development after years of working in digital marketing. 💻<\/p><p><br\/>When I built my first \"Hello World!\" website, I instantly got hooked and never looked back. I combine my design savvy with technical skills to create user-friendly, responsive web experiences.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-0",
-        "template--19312199827731__e3af33bf-4731-4cdd-96af-53dd1019f70b-1686615373af02dca8-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_31_5.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "a5617c53-b57f-40d0-9857-82f6e1dbbade": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "7842d17e-4f26-46f6-8731-06050d90cd88": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/open-bible-on-white.jpg",
-            "title": "Bible Buddy - Personal Project",
-            "text": "<p>Bible Buddy is community built project that creates free resources to help you grow your relationship with God.<\/p>",
-            "link_label": "View Project",
-            "link": "https:\/\/www.biblebuddy.co\/"
-          }
-        },
-        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/jeswin-thomas-z_PfaGzeN9E-unsplash.jpg",
-            "title": "Kitchen Witches - Catering Business Website",
-            "text": "<p>A simple custom website for a local Mexican food catering company.<\/p>",
-            "link_label": "View Project",
-            "link": "https:\/\/kitchen-witches.vercel.app\/"
-          }
-        },
-        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alex-lvrs--ZvC04d-xLw-unsplash_1.jpg",
-            "title": "Ultimate Lifestyle Transformation -Supplement Bundle Landing Page",
-            "text": "<p>A custom e-commerce landing page for their best-selling product, the \"Ultimate Lifestyle Transformation\".<\/p>",
-            "link_label": "View Project",
-            "link": "https:\/\/ult-pack.vercel.app\/"
-          }
-        }
-      },
-      "block_order": [
-        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-0",
-        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-1",
-        "template--19415962288403__7842d17e-4f26-46f6-8731-06050d90cd88-168661064926ac2472-2"
-      ],
-      "settings": {
-        "title": "<strong>Projects<\/strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "bf98fa3b-c6e0-49f5-8262-f90cd7da7e0d": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "Projects",
-        "heading_size": "h0",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "7cf27b6c-56a7-4933-a5a5-77a453fcd71f": {
-      "type": "contact-form",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "heading": "<strong>Contact me<\/strong>",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "btn_text": "Explore My Projects →",
+        "img": "shopify:\/\/shop_images\/image_3_5.png"
       }
     }
   },
   "order": [
-    "3e1125ad-304e-4f56-9c7e-9b3538e968a9",
-    "e3af33bf-4731-4cdd-96af-53dd1019f70b",
-    "a5617c53-b57f-40d0-9857-82f6e1dbbade",
-    "7842d17e-4f26-46f6-8731-06050d90cd88",
-    "bf98fa3b-c6e0-49f5-8262-f90cd7da7e0d",
-    "7cf27b6c-56a7-4933-a5a5-77a453fcd71f"
+    "e03a656a-c6f9-42f2-a48c-0401b3292f3e"
   ]
 }

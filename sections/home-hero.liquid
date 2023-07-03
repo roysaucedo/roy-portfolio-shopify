@@ -1,25 +1,23 @@
 <div class="py-16 md:py-40 mx-auto w-full bg-gradient-to-tr from-white from-50% via-cyan-100 to-green-200">
-  <div class="page-width mx-auto">
+  <div class="page-width mx-auto flex flex-col md:flex-row md:items-center">
     {% comment %} CONTENT {% endcomment %}
-    <div class="py-16 flex justify-center flex-col md:w-3/4">
-      <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-6">{{ section.settings.h1 }}</h1>
-      <p class="text-center  mb-10">{{ section.settings.p }}</p>
-      <a class="text-center  no-underline text-white bg-black px-8 py-4 rounded-lg w-full mx-auto" href="{{ section.settings.url }}">
+    <div class="py-16 flex justify-center flex-col md:w-1/2 md:pr-6">
+      <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-8">{{ section.settings.h1 }}</h1>
+      <p class="text-center md:text-left  mb-16">{{ section.settings.p }}</p>
+      <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0" href="{{ section.settings.url }}">
         {{ section.settings.btn_text }}
       </a>
     </div>
-
-  </div>
-  
- {% comment %} VIDEO/IMAGE {% endcomment %}
-  <div class="">
-    <iframe
-              src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
-              class="js-youtube mx-auto"
-              allow="autoplay; encrypted-media"
-              allowfullscreen
-              title="{{ section.settings.description | escape }}"
-            ></iframe>
+    {% comment %} VIDEO/IMAGE {% endcomment %}
+    <div class="md:w-1/2">
+      <img
+      class="w-full h-auto mx-auto"
+      src="{{ section.settings.img | image_url: width: 800 }}"
+      alt="{{ section.settings.img.alt }}"
+      width="{{ section.settingsimgl.width }}"
+      height="{{ section.settings.img.height }}"
+      loading="lazy"> 
+    </div>
   </div>
 </div>
 
@@ -54,6 +52,11 @@
       "id": "btn_text",
       "label": "Button Text",
       "default": "Button Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
     }
   ],
   "presets": [
