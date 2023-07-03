@@ -19,8 +19,8 @@
         "img_left": false,
         "bg": "bg-black",
         "h1": "SKILLS & SERVICES",
-        "p_mobile_text_center": true,
-        "p": "<p>→ Custom Shopify Theme Development<\/p>",
+        "p_mobile_text_center": false,
+        "p": "<p>→ Custom Shopify Theme Development<\/p><p><\/p><p>→ UX\/UI Design<\/p>",
         "link": "",
         "btn_text": "",
         "img": "shopify:\/\/shop_images\/image_1_5.png"
