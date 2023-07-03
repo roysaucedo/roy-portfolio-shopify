@@ -16,7 +16,7 @@
     "0a1f1c09-33a5-426e-922c-ca78215347c2": {
       "type": "home-hero",
       "settings": {
-        "img_left": false,
+        "img_left": true,
         "bg": "bg-black",
         "h1": "SKILLS & SERVICES",
         "p_mobile_text_center": false,
