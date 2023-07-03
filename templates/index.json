@@ -26,10 +26,10 @@
         "img": "shopify:\/\/shop_images\/image_1_5.png"
       }
     },
-    "239a551d-f356-400e-b488-f721484fc0b7": {
-      "type": "contact-form",
+    "a922287a-d6b1-42da-af41-9a9f5b06b229": {
+      "type": "home-contact",
       "settings": {
-        "heading": "Contact form",
+        "heading": "LET'S CONNECT",
         "heading_size": "h1",
         "color_scheme": "",
         "padding_top": 64,
@@ -40,6 +40,6 @@
   "order": [
     "e03a656a-c6f9-42f2-a48c-0401b3292f3e",
     "0a1f1c09-33a5-426e-922c-ca78215347c2",
-    "239a551d-f356-400e-b488-f721484fc0b7"
+    "a922287a-d6b1-42da-af41-9a9f5b06b229"
   ]
 }
