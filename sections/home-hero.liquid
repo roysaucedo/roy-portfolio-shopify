@@ -1,17 +1,17 @@
 <div class="py-16 md:py-40 mx-auto w-full bg-gradient-to-tr from-white from-50% via-cyan-100 to-green-200">
   <div class="page-width mx-auto flex flex-col md:flex-row md:items-center">
     {% comment %} CONTENT {% endcomment %}
-    <div class="py-16 flex justify-center flex-col md:w-1/2">
-      <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-6">{{ section.settings.h1 }}</h1>
-      <p class="text-center md:text-left  mb-10">{{ section.settings.p }}</p>
-      <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md" href="{{ section.settings.url }}">
+    <div class="py-16 flex justify-center flex-col md:w-1/2 md:pr-6">
+      <h1 class="text-center md:text-left uppercase font-bold text-6xl md:text-8xl mb-8">{{ section.settings.h1 }}</h1>
+      <p class="text-center md:text-left  mb-16">{{ section.settings.p }}</p>
+      <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto" href="{{ section.settings.url }}">
         {{ section.settings.btn_text }}
       </a>
     </div>
     {% comment %} VIDEO/IMAGE {% endcomment %}
-    <div class="w-1/2">
+    <div class="md:w-1/2">
       <img
-      class="h-auto"
+      class="w-full h-auto mx-auto"
       src="{{ section.settings.img | image_url: width: 800 }}"
       alt="{{ section.settings.img.alt }}"
       width="{{ section.settingsimgl.width }}"
