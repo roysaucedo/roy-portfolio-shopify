@@ -1,5 +1,14 @@
 {
   "sections": {
+    "3e1125ad-304e-4f56-9c7e-9b3538e968a9": {
+      "type": "home-hero",
+      "settings": {
+        "h1": "Place Heading Here",
+        "p": "Place Pargraph Here",
+        "link": "",
+        "btn_text": "Button Text"
+      }
+    },
     "e3af33bf-4731-4cdd-96af-53dd1019f70b": {
       "type": "image-with-text",
       "blocks": {
@@ -141,6 +150,7 @@
     }
   },
   "order": [
+    "3e1125ad-304e-4f56-9c7e-9b3538e968a9",
     "e3af33bf-4731-4cdd-96af-53dd1019f70b",
     "a5617c53-b57f-40d0-9857-82f6e1dbbade",
     "7842d17e-4f26-46f6-8731-06050d90cd88",
