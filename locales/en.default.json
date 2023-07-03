@@ -240,9 +240,9 @@
         "name": "Name",
         "email": "Email",
         "phone": "Phone number",
-        "comment": "Comment",
-        "send": "Send",
-        "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+        "comment": "Message",
+        "send": "Submit",
+        "post_success": "Thanks for reaching out! I'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       }
     },
