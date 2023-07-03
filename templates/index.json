@@ -16,7 +16,7 @@
       "settings": {
         "bg": "bg-black",
         "h1": "Place Heading Here",
-        "p": "Place Pargraph Here",
+        "p": "Place Pargraph Here\nPlace Pargraph Here\nPlace Pargraph Here\nPlace Pargraph Here\nPlace Pargraph Here\nPlace Pargraph Here",
         "link": "",
         "btn_text": "",
         "img": "shopify:\/\/shop_images\/image_1_5.png"
