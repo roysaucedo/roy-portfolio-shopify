@@ -241,7 +241,7 @@
         "email": "Email",
         "phone": "Phone number",
         "comment": "Message",
-        "send": "Submit",
+        "send": "Submit →",
         "post_success": "Thanks for reaching out! I'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       }
