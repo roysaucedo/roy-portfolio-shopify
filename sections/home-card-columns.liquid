@@ -1,0 +1,98 @@
+<div class="py-16 md:py-40 mx-auto w-full {{ section.settings.bg }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+<div class="page-width mx-auto flex flex-col md:flex-row md:items-center {% if section.settings.img_left %}md:flex-row-reverse{% endif %}">
+  {% comment %} CONTENT {% endcomment %}
+  <div class="py-16 flex justify-center flex-col md:w-1/2 md:pr-6">
+    <h1 class="text-center md:text-left uppercase font-bold text-7xl md:text-8xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.h1 }}</h1>
+    <span class="md:text-left mb-16 {% if section.settings.bg == "bg-black" %}text-white{% endif %} {% if section.settings.p_mobile_text_center %}text-center{% endif %}">{{ section.settings.p }}</span>
+    <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 {% if section.settings.btn_text == blank %}hidden{% endif %}" href="{{ section.settings.url }}">
+      {{ section.settings.btn_text }}
+    </a>
+
+  
+
+  </div>
+  {% comment %} VIDEO/IMAGE {% endcomment %}
+  <div class="md:w-1/2">
+    <img
+    class="w-full h-auto mx-auto"
+    src="{{ section.settings.img | image_url: width: 800 }}"
+    alt="{{ section.settings.img.alt }}"
+    width="{{ section.settingsimgl.width }}"
+    height="{{ section.settings.img.height }}"
+    loading="lazy"> 
+  </div>
+</div>
+</div>
+
+{% schema %}
+{
+"name": "Home - Card Columns",
+"class": "section",
+"tag": "section",
+"disabled_on": {
+  "groups": ["header", "footer"]
+},
+"settings": [
+  {
+    "type": "checkbox",
+    "id": "img_left",
+    "label": "Image Left",
+    "default": false
+  },
+  {
+    "type": "select",
+    "id": "bg",
+    "options": [
+    {
+      "value": "bg-gradient",
+      "label": "Gradient"
+    },
+    {
+      "value": "bg-black",
+      "label": "Black"
+    }
+  ],
+    "label": "Background Option",
+    "default": "bg-gradient"
+  },    
+  {
+    "type": "text",
+    "id": "h1",
+    "label": "Heading",
+    "default": "Place Heading Here"
+  },
+  {
+    "type": "checkbox",
+    "id": "p_mobile_text_center",
+    "label": "Text Align Center",
+    "default": true
+  },
+  {
+    "type": "richtext",
+    "id": "p",
+    "label": "Paragraph"
+  },
+  {
+    "type": "url",
+    "id": "link",
+    "label": "Button Link"
+  },
+  {
+    "type": "text",
+    "id": "btn_text",
+    "label": "Button Text",
+    "default": "Button Text"
+  },
+  {
+    "type": "image_picker",
+    "id": "img",
+    "label": "Image"
+  }
+],
+"presets": [
+  {
+    "name": "Home - Card Columns"
+  }
+]
+}
+{% endschema %}
