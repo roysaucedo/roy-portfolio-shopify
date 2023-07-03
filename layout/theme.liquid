@@ -241,7 +241,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {% comment %} TAILWIND {% endcomment %}
-    <link href="/assets/output.css" rel="stylesheet">
+    {{ 'output.css' | asset_url | stylesheet_tag }}
+    
 
 
     {%- unless settings.type_body_font.system? -%}
