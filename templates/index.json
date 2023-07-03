@@ -26,6 +26,30 @@
         "img": "shopify:\/\/shop_images\/image_1_5.png"
       }
     },
+    "cbb929e5-3011-4a7f-800d-93b66a0befe1": {
+      "type": "home-card-columns",
+      "settings": {
+        "img_left": false,
+        "bg": "bg-gradient",
+        "h1": "Project Gallery",
+        "p_mobile_text_center": true,
+        "p": "",
+        "link": "",
+        "btn_text": ""
+      }
+    },
+    "e106b1fc-6498-493f-8bfb-5c649bec86f0": {
+      "type": "home-card-columns",
+      "settings": {
+        "img_left": false,
+        "bg": "bg-black",
+        "h1": "REVIEWS",
+        "p_mobile_text_center": true,
+        "p": "",
+        "link": "",
+        "btn_text": ""
+      }
+    },
     "a922287a-d6b1-42da-af41-9a9f5b06b229": {
       "type": "home-contact",
       "settings": {
@@ -40,6 +64,8 @@
   "order": [
     "e03a656a-c6f9-42f2-a48c-0401b3292f3e",
     "0a1f1c09-33a5-426e-922c-ca78215347c2",
+    "cbb929e5-3011-4a7f-800d-93b66a0befe1",
+    "e106b1fc-6498-493f-8bfb-5c649bec86f0",
     "a922287a-d6b1-42da-af41-9a9f5b06b229"
   ]
 }
