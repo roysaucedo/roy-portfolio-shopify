@@ -42,6 +42,15 @@
             "link": "https:\/\/cmc-motorsports.com\/"
           }
         },
+        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_6.png",
+            "title": "Bentgo",
+            "p": "",
+            "link": "https:\/\/bentgo.com\/"
+          }
+        },
         "f51973e2-f4b5-40f9-8759-1834ab959b1c": {
           "type": "card",
           "settings": {
@@ -50,21 +59,12 @@
             "p": "",
             "link": "https:\/\/shotgunshock.com\/"
           }
-        },
-        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Project_Image_5.png",
-            "title": "Shopdango",
-            "p": "",
-            "link": "https:\/\/shopdango.com\/"
-          }
         }
       },
       "block_order": [
         "62b18e42-6472-44fd-955f-a63d52b02d0e",
-        "f51973e2-f4b5-40f9-8759-1834ab959b1c",
-        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d"
+        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d",
+        "f51973e2-f4b5-40f9-8759-1834ab959b1c"
       ],
       "settings": {
         "img_left": false,
