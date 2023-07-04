@@ -5,7 +5,7 @@
       "settings": {
         "img_left": false,
         "bg": "bg-gradient",
-        "h1": "Shopify Developer W\/ SAUCE 🔥",
+        "h2": "Shopify Developer W\/ SAUCE🔥",
         "p_mobile_text_center": true,
         "p": "<p>Hi, I’m Roy Saucedo. 👋 I'm a Shopify Developer from Orange County, CA. I have been working on the platform for 4 years. <br\/>I am passionate about helping merchants crush their business goals by customizing their Shopify websites. 🏆<\/p>",
         "link": "",
@@ -20,7 +20,7 @@
       "settings": {
         "img_left": true,
         "bg": "bg-black",
-        "h1": "SKILLS & SERVICES",
+        "h2": "Place Heading Here",
         "p_mobile_text_center": false,
         "p": "<p>→ Custom Shopify Theme Development<\/p><p>→ UX\/UI Design<\/p><p>→ Conversion Rate Optimization<\/p><p>→ Shopify & 3rd Party App Integrations<\/p>",
         "link": "",
@@ -34,12 +34,11 @@
       "type": "home-card-columns",
       "settings": {
         "img_left": false,
+        "hover": true,
         "bg": "bg-gradient",
-        "h1": "Project Gallery",
+        "h2": "Place Heading Here",
         "p_mobile_text_center": true,
-        "p": "",
-        "link": "",
-        "btn_text": "",
+        "stars": false,
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -48,12 +47,11 @@
       "type": "home-card-columns",
       "settings": {
         "img_left": false,
+        "hover": true,
         "bg": "bg-black",
-        "h1": "REVIEWS",
+        "h2": "Place Heading Here",
         "p_mobile_text_center": true,
-        "p": "",
-        "link": "",
-        "btn_text": "",
+        "stars": false,
         "padding_top": 60,
         "padding_bottom": 60
       }
