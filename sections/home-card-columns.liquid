@@ -19,19 +19,30 @@
       <h2 class="text-center md:text-left uppercase font-bold text-7xl md:text-8xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">
         {{ section.settings.h2 }}
       </h2>
-      <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-2 py-10">
+      <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
         {% for block in section.blocks %}
           <a href="{{ block.settings.link }}">
-            <div class="p-8 bg-gray-200 border-2 border-gray-400 rounded-xl hover:scale-105 hover:rotate-2 hover:shadow-xl ease-in-out duration-300 shadow-md">
-              <img
-                class="w-full h-auto mx-auto rounded-lg mb-6"
-                src="{{ block.settings.img | image_url: width: 800 }}"
-                alt="{{ block.settings.img.alt }}"
-                width="{{ block.settings.img.width }}"
-                height="{{ block.settings.img.height }}"
-                loading="lazy"
-              >
-              <h3 class="text-4xl font-semibold text-center">{{ block.settings.title }}</h3>
+            <div class="p-8 bg-gray-200 border-2 border-gray-400 rounded-xl ease-in-out duration-300 shadow-md {% if section.settings.hover %}hover:scale-105 hover:rotate-2 hover:shadow-xl{% endif %}">
+              {% if block.settings.img %}
+                <img
+                  class="w-full h-auto mx-auto rounded-lg mb-6"
+                  src="{{ block.settings.img | image_url: width: 800 }}"
+                  alt="{{ block.settings.img.alt }}"
+                  width="{{ block.settings.img.width }}"
+                  height="{{ block.settings.img.height }}"
+                  loading="lazy"
+                >
+              {% endif %}
+              {% if block.settings.p %}
+                <p class="text-center mb-8 text-3xl">{{ block.settings.p }}</p>
+              {% endif %}
+              {% if section.settings.stars %}
+              <div class="flex justify-center mb-6">
+                {% render '5-stars' %}
+              </div>
+                
+              {% endif %}
+              <h3 class="text-3xl font-semibold text-center">{{ block.settings.title }}</h3>
             </div>
           </a>
         {% endfor %}
@@ -54,6 +65,12 @@
       "id": "img_left",
       "label": "Image Left",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hover",
+      "label": "Hover On/Off",
+      "default": true
     },
     {
       "type": "select",
@@ -82,6 +99,12 @@
       "id": "p_mobile_text_center",
       "label": "Text Align Center",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "stars",
+      "label": "Show 5 Stars",
+      "default": false
     },
     {
       "type": "header",
@@ -123,6 +146,11 @@
           "id": "title",
           "default": "Card Title",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "textarea",
+          "id": "p",
+          "label": "Paragraph"
         },
         {
           "type": "url",
