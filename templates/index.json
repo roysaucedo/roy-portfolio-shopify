@@ -32,6 +32,37 @@
     },
     "cbb929e5-3011-4a7f-800d-93b66a0befe1": {
       "type": "home-card-columns",
+      "blocks": {
+        "f51973e2-f4b5-40f9-8759-1834ab959b1c": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "62b18e42-6472-44fd-955f-a63d52b02d0e": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "246f7f00-ae67-4e89-bb6b-565dfd5a6ef6": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f51973e2-f4b5-40f9-8759-1834ab959b1c",
+        "62b18e42-6472-44fd-955f-a63d52b02d0e",
+        "246f7f00-ae67-4e89-bb6b-565dfd5a6ef6"
+      ],
       "settings": {
         "img_left": false,
         "hover": true,
@@ -45,6 +76,64 @@
     },
     "e106b1fc-6498-493f-8bfb-5c649bec86f0": {
       "type": "home-card-columns",
+      "blocks": {
+        "47032e37-a8f9-4649-a43a-dd2fe2777a7f": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "1b1a8b24-1004-4c7d-bfae-ad29d09f2937": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "126c3373-816a-4560-b3b2-c7427d894be1": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "98efec25-25ad-4686-aa10-f781a59ce0a2": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "2b4670fc-7bb9-4818-9d71-6109c66086b6": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "3be95331-3e34-48fb-8031-be241ecc079c": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "47032e37-a8f9-4649-a43a-dd2fe2777a7f",
+        "1b1a8b24-1004-4c7d-bfae-ad29d09f2937",
+        "126c3373-816a-4560-b3b2-c7427d894be1",
+        "98efec25-25ad-4686-aa10-f781a59ce0a2",
+        "2b4670fc-7bb9-4818-9d71-6109c66086b6",
+        "3be95331-3e34-48fb-8031-be241ecc079c"
+      ],
       "settings": {
         "img_left": false,
         "hover": true,
