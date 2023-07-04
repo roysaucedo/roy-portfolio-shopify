@@ -33,25 +33,28 @@
     "cbb929e5-3011-4a7f-800d-93b66a0befe1": {
       "type": "home-card-columns",
       "blocks": {
-        "f51973e2-f4b5-40f9-8759-1834ab959b1c": {
-          "type": "card",
-          "settings": {
-            "title": "Card Title",
-            "p": "",
-            "link": ""
-          }
-        },
         "62b18e42-6472-44fd-955f-a63d52b02d0e": {
           "type": "card",
           "settings": {
+            "img": "shopify:\/\/shop_images\/image_3_5.png",
             "title": "Card Title",
             "p": "",
             "link": ""
           }
         },
-        "246f7f00-ae67-4e89-bb6b-565dfd5a6ef6": {
+        "f51973e2-f4b5-40f9-8759-1834ab959b1c": {
           "type": "card",
           "settings": {
+            "img": "shopify:\/\/shop_images\/image_1_5.png",
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_3_5.png",
             "title": "Card Title",
             "p": "",
             "link": ""
@@ -59,9 +62,9 @@
         }
       },
       "block_order": [
-        "f51973e2-f4b5-40f9-8759-1834ab959b1c",
         "62b18e42-6472-44fd-955f-a63d52b02d0e",
-        "246f7f00-ae67-4e89-bb6b-565dfd5a6ef6"
+        "f51973e2-f4b5-40f9-8759-1834ab959b1c",
+        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d"
       ],
       "settings": {
         "img_left": false,
@@ -81,7 +84,7 @@
           "type": "card",
           "settings": {
             "title": "Card Title",
-            "p": "",
+            "p": "“Lorem ipsum his is a greta review that I will write. This guy is so helpful!”",
             "link": ""
           }
         },
