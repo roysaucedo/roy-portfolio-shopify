@@ -36,7 +36,7 @@
         "img_left": false,
         "hover": true,
         "bg": "bg-gradient",
-        "h2": "Place Heading Here",
+        "h2": "Projects",
         "p_mobile_text_center": true,
         "stars": false,
         "padding_top": 60,
@@ -49,9 +49,9 @@
         "img_left": false,
         "hover": true,
         "bg": "bg-black",
-        "h2": "Place Heading Here",
+        "h2": "REVIEWS",
         "p_mobile_text_center": true,
-        "stars": false,
+        "stars": true,
         "padding_top": 60,
         "padding_bottom": 60
       }
