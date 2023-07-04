@@ -2,13 +2,59 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "184b1d24-1827-483c-942d-3c58c1664bb3": {
+      "type": "home-card-columns",
+      "blocks": {
+        "135a768f-44dd-49ac-93b4-077ed3707b3c": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "86c291a8-0674-4a81-87fc-77d1eda18038": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "d136b422-27ca-4246-b4e5-5932f3dc15aa": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "135a768f-44dd-49ac-93b4-077ed3707b3c",
+        "86c291a8-0674-4a81-87fc-77d1eda18038",
+        "d136b422-27ca-4246-b4e5-5932f3dc15aa"
+      ],
+      "settings": {
+        "img_left": false,
+        "hover": true,
+        "bg": "bg-gradient",
+        "h2": "PROJECTS",
+        "p_mobile_text_center": true,
+        "stars": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "184b1d24-1827-483c-942d-3c58c1664bb3"
   ]
 }
