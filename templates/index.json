@@ -55,9 +55,9 @@
           "type": "card",
           "settings": {
             "img": "shopify:\/\/shop_images\/image_3_5.png",
-            "title": "Card Title",
+            "title": "Shopdango",
             "p": "",
-            "link": ""
+            "link": "https:\/\/shopdango.com\/"
           }
         }
       },
