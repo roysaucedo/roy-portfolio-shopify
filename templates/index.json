@@ -83,7 +83,7 @@
         "47032e37-a8f9-4649-a43a-dd2fe2777a7f": {
           "type": "card",
           "settings": {
-            "title": "Card Title",
+            "title": "Jane Doe - CMC Motorsports",
             "p": "“Lorem ipsum his is a greta review that I will write. This guy is so helpful!”",
             "link": ""
           }
@@ -139,7 +139,7 @@
       ],
       "settings": {
         "img_left": false,
-        "hover": true,
+        "hover": false,
         "bg": "bg-black",
         "h2": "REVIEWS",
         "p_mobile_text_center": true,
