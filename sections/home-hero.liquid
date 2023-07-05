@@ -18,7 +18,7 @@
     <div class="py-16 flex justify-center flex-col md:w-1/2 md:pr-6">
       <h2 class="text-center md:text-left uppercase font-bold text-7xl md:text-8xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.h2 }}</h2>
       <span class="md:text-left mb-16 {% if section.settings.bg == "bg-black" %}text-white{% endif %} {% if section.settings.p_mobile_text_center %}text-center{% endif %}">{{ section.settings.p }}</span>
-      <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 {% if section.settings.btn_text == blank %}hidden{% endif %}" href="{{ section.settings.url }}">
+      <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 {% if section.settings.btn_text == blank %}hidden{% endif %}" href="{{ section.settings.link }}">
         {{ section.settings.btn_text }}
       </a>
   
