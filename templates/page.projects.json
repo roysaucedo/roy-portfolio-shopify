@@ -14,15 +14,17 @@
         "135a768f-44dd-49ac-93b4-077ed3707b3c": {
           "type": "card",
           "settings": {
-            "title": "Card Title",
+            "img": "shopify:\/\/shop_images\/Project_Image_3_a72aded5-ae76-441a-a432-32ba0abf3fd5.png",
+            "title": "CMC Motorsports",
             "p": "",
-            "link": ""
+            "link": "https:\/\/cmc-motorsports.com\/"
           }
         },
         "86c291a8-0674-4a81-87fc-77d1eda18038": {
           "type": "card",
           "settings": {
-            "title": "Card Title",
+            "img": "shopify:\/\/shop_images\/Project_Image_6.png",
+            "title": "Bentgo",
             "p": "",
             "link": ""
           }
