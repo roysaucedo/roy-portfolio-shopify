@@ -6,3 +6,16 @@
 }
 
 @tailwind utilities;
+
+
+@layer base {
+    h1 {
+      @apply text-5xl;
+      @apply leading-normal;
+    }
+    h2 {
+      @apply text-4xl;
+      @apply leading-relaxed;
+    }
+  }
+  
