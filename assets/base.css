@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Futura-CondensedExtraBold';
+    src: url('./Futura-CondensedExtraBold.woff2') format('woff2'),
+        url('./Futura-CondensedExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
