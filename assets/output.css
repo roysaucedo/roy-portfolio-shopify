@@ -883,21 +883,17 @@ h2 {
     padding-bottom: 10rem;
   }
 
-  .md\:pr-6 {
-    padding-right: 1.5rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
 
-  .md\:text-8xl {
-    font-size: 6rem;
+  .md\:text-9xl {
+    font-size: 8rem;
     line-height: 1;
   }
 
-  .md\:text-9xl {
-    font-size: 8rem;
+  .md\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 }
