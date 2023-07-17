@@ -17,7 +17,7 @@
 {%- endstyle -%}
 
 {%- paginate blog.articles by 6 -%}
-  <div class="main-blog page-width section-{{ section.id }}-padding">
+  <div class="main-blog page-width section-{{ section.id }}-padding {{ section.settings.bg }}">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} font-bold text-7xl md:text-9xl">
       {{ blog.title | escape }}
     </h1>
@@ -56,6 +56,22 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "select",
+      "id": "bg",
+      "options": [
+        {
+          "value": "bg-gradient",
+          "label": "Gradient"
+        },
+        {
+          "value": "bg-black",
+          "label": "Black"
+        }
+      ],
+      "label": "Background Option",
+      "default": "bg-gradient"
+    },
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
