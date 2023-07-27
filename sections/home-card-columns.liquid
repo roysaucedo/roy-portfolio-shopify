@@ -1,0 +1,172 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="py-16 md:py-40 mx-auto w-full {{ section.settings.bg }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} section-{{ section.id }}-padding">
+  <div class="page-width mx-auto flex flex-col md:flex-row md:items-center {% if section.settings.img_left %}md:flex-row-reverse{% endif %}">
+    {% comment %} CONTENT {% endcomment %}
+    <div class="w-full py-16">
+      <h2 class="text-center md:text-left uppercase font-bold text-7xl md:text-9xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">
+        {{ section.settings.h2 }}
+      </h2>
+      <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
+        {% for block in section.blocks %}
+          <a href="{{ block.settings.link }}" target="_blank">
+            <div class="flex flex-col justify-between h-full p-8 bg-gray-100 border-2 border-gray-400 rounded-xl ease-in-out duration-300 shadow-md {% if section.settings.hover %}hover:scale-105 hover:rotate-2 hover:shadow-xl{% endif %}">
+              {% if block.settings.img %}
+                <img
+                  class="w-full h-auto mx-auto rounded-lg mb-6"
+                  src="{{ block.settings.img | image_url: width: 800 }}"
+                  alt="{{ block.settings.img.alt }}"
+                  width="{{ block.settings.img.width }}"
+                  height="{{ block.settings.img.height }}"
+                  loading="lazy"
+                >
+              {% endif %}
+              {% if block.settings.p %}
+                <p class="text-center mb-8 text-3xl">{{ block.settings.p }}</p>
+              {% endif %}
+              <div>
+                {% if section.settings.stars %}
+              <div class="flex justify-center mb-6">
+                {% render '5-stars' %}
+              </div>
+                
+              {% endif %}
+              <h3 class="text-3xl font-semibold text-center">{{ block.settings.title }}</h3>
+              </div>
+              
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Home - Card Columns",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "img_left",
+      "label": "Image Left",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hover",
+      "label": "Hover On/Off",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "options": [
+        {
+          "value": "bg-gradient",
+          "label": "Gradient"
+        },
+        {
+          "value": "bg-black",
+          "label": "Black"
+        }
+      ],
+      "label": "Background Option",
+      "default": "bg-gradient"
+    },
+    {
+      "type": "text",
+      "id": "h2",
+      "label": "Heading",
+      "default": "Place Heading Here"
+    },
+    {
+      "type": "checkbox",
+      "id": "p_mobile_text_center",
+      "label": "Text Align Center",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "stars",
+      "label": "Show 5 Stars",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Card Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "default": "Card Title",
+          "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "textarea",
+          "id": "p",
+          "label": "Paragraph"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Card Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home - Card Columns"
+    }
+  ]
+}
+{% endschema %}

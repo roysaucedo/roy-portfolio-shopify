@@ -3,15 +3,167 @@
     "e03a656a-c6f9-42f2-a48c-0401b3292f3e": {
       "type": "home-hero",
       "settings": {
-        "h1": "Shopify Developer WITH SAUCE 🔥",
-        "p": "Hi, I’m Roy Saucedo. 👋 I'm a Shopify Developer from Orange County, CA. I have been working on the platform for 4 years. \nI am passionate about helping merchants crush their business goals by customizing their Shopify websites. 🏆",
-        "link": "",
+        "img_left": false,
+        "bg": "bg-gradient",
+        "h2": "SHOPIFY Developer With SAUCE🔥",
+        "p_mobile_text_center": true,
+        "p": "<p>Hi, I'm Roy Saucedo. 👋 I'm a Frontend Developer with a background in digital marketing. For the past 4 years, I've been building websites that not only look amazing but also drive results. I'm passionate about helping business owners achieve their goals by combining my coding expertise with a deep understanding of digital marketing strategies. 🏆<\/p>",
+        "link": "shopify:\/\/pages\/projects",
         "btn_text": "Explore My Projects →",
-        "img": "shopify:\/\/shop_images\/image_3_5.png"
+        "img": "shopify:\/\/shop_images\/image_3_5.png",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0a1f1c09-33a5-426e-922c-ca78215347c2": {
+      "type": "home-hero",
+      "settings": {
+        "img_left": true,
+        "bg": "bg-black",
+        "h2": "SKILLS & SERVICES",
+        "p_mobile_text_center": false,
+        "p": "<p>→ Landing Page Design & Development<\/p><p>→ Custom Shopify Theme Development<\/p><p>→ UX\/UI Design (Figma Wireframes)<\/p><p>→ Conversion Rate Optimization<\/p><p>→ Shopify & 3rd Party App Integrations<\/p>",
+        "link": "",
+        "btn_text": "",
+        "img": "shopify:\/\/shop_images\/image_1_5.png",
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    },
+    "cbb929e5-3011-4a7f-800d-93b66a0befe1": {
+      "type": "home-card-columns",
+      "blocks": {
+        "62b18e42-6472-44fd-955f-a63d52b02d0e": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_3.png",
+            "title": "CMC Motorsports",
+            "p": "",
+            "link": "https:\/\/cmc-motorsports.com\/"
+          }
+        },
+        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_6.png",
+            "title": "Bentgo",
+            "p": "",
+            "link": "https:\/\/bentgo.com\/"
+          }
+        },
+        "f51973e2-f4b5-40f9-8759-1834ab959b1c": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_4.png",
+            "title": "Shotgun Shock",
+            "p": "",
+            "link": "https:\/\/shotgunshock.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "62b18e42-6472-44fd-955f-a63d52b02d0e",
+        "f6923ab7-3487-4912-ad31-efbe4b7d1b0d",
+        "f51973e2-f4b5-40f9-8759-1834ab959b1c"
+      ],
+      "settings": {
+        "img_left": false,
+        "hover": true,
+        "bg": "bg-gradient",
+        "h2": "Projects",
+        "p_mobile_text_center": true,
+        "stars": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "e106b1fc-6498-493f-8bfb-5c649bec86f0": {
+      "type": "home-card-columns",
+      "blocks": {
+        "47032e37-a8f9-4649-a43a-dd2fe2777a7f": {
+          "type": "card",
+          "settings": {
+            "title": "David D. - CMC Motorsports",
+            "p": "\"We hired Sauce Studios to launch our company's online marketing & website. Roy did an awesome job developing a strategy that worked for us. He was very professional and knowledgeable. Best of all he educated us every step of the way.\"",
+            "link": ""
+          }
+        },
+        "a4085363-3691-449a-a6b8-10ff1d5016c4": {
+          "type": "card",
+          "settings": {
+            "title": "Austin M. - Kaadenze Music",
+            "p": "\"Roy has exceeded all my expectations and has truly brought to life my vision through my new website!!!! He was very fun to work with on a creative\/ professional side. I definitely recommend Roy for your website needs! I look forward to the times ahead as we continue to work together!\"",
+            "link": ""
+          }
+        },
+        "e9bb2c8c-c3c6-4908-8e3a-896840e12180": {
+          "type": "card",
+          "settings": {
+            "title": "Alana M. - Whittier, CA",
+            "p": "\"I’m running for Whittier City school board and I needed a website ASAP. I reached out to Roy and he was available right away. His attention to detail and professionalism was beyond my expectation. He goes above and beyond for his clients and his knowledge of web-based information is unparalleled. I love my website!",
+            "link": ""
+          }
+        },
+        "702ce660-6175-4d14-b386-4a990d27358a": {
+          "type": "card",
+          "settings": {
+            "title": "Chris C. - Costello Training",
+            "p": "\"First off, super cool dude. Roy helped me out by talking through personalizing a site for my coaching and personal training business. It was a very helpful tech consultation. Very professional, very creative, and works well with you and your needs. Highly recommend.\"",
+            "link": ""
+          }
+        },
+        "2ec1edf5-c0b7-4c2e-8d61-1911922b6bf4": {
+          "type": "card",
+          "settings": {
+            "title": "Christina Y. - House of Pole",
+            "p": "\"Roy has been a heaven sent!! He made the process for the website seamless and fun. He’s very reliable and communicative. His skills are amazing and up to par. He understood the concept I wanted and envisioned for the site. I highly recommend him and plan to work with him again in the future.\"",
+            "link": ""
+          }
+        },
+        "68553561-8395-4053-af89-5ab18e72dd1d": {
+          "type": "card",
+          "settings": {
+            "title": "Makai L.- Mr.Lava Hot Sauce",
+            "p": "\"Roy goes above and beyond with his customer service, marketing knowledge, relationship building, and high-quality decision-making. Roy is authentic, charismatic, an expert in his space, and a pleasure to work with through and through. He brought a new energy and level of expertise to our business that was desperately needed and we are blessed to work alongside him.\"",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "47032e37-a8f9-4649-a43a-dd2fe2777a7f",
+        "a4085363-3691-449a-a6b8-10ff1d5016c4",
+        "e9bb2c8c-c3c6-4908-8e3a-896840e12180",
+        "702ce660-6175-4d14-b386-4a990d27358a",
+        "2ec1edf5-c0b7-4c2e-8d61-1911922b6bf4",
+        "68553561-8395-4053-af89-5ab18e72dd1d"
+      ],
+      "settings": {
+        "img_left": false,
+        "hover": false,
+        "bg": "bg-black",
+        "h2": "REVIEWS",
+        "p_mobile_text_center": true,
+        "stars": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "a922287a-d6b1-42da-af41-9a9f5b06b229": {
+      "type": "home-contact",
+      "settings": {
+        "heading": "LET'S CONNECT",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
-    "e03a656a-c6f9-42f2-a48c-0401b3292f3e"
+    "e03a656a-c6f9-42f2-a48c-0401b3292f3e",
+    "0a1f1c09-33a5-426e-922c-ca78215347c2",
+    "cbb929e5-3011-4a7f-800d-93b66a0befe1",
+    "e106b1fc-6498-493f-8bfb-5c649bec86f0",
+    "a922287a-d6b1-42da-af41-9a9f5b06b229"
   ]
 }

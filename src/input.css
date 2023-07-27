@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
+
+.bg-gradient {
+    @apply bg-gradient-to-tr from-white from-50% via-cyan-100 to-green-200
+}
+
 @tailwind utilities;
+
+
+@layer base {
+    h1 {
+      @apply text-5xl;
+      @apply leading-normal;
+    }
+    h2 {
+      @apply text-4xl;
+      @apply leading-relaxed;
+    }
+  }
+  
