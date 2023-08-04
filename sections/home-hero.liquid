@@ -16,7 +16,7 @@
   <div class="page-width mx-auto flex flex-col md:flex-row md:items-center {% if section.settings.img_left %}md:flex-row-reverse{% endif %}">
     {% comment %} CONTENT {% endcomment %}
     <div class="py-16 flex justify-center flex-col md:w-1/2">
-      <h2 class="text-center md:text-left uppercase font-bold text-7xl md:text-9xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.h2 }}</h2>
+      <h2 class="text-center md:text-left uppercase font-bold text-8xl md:text-9xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.h2 }}</h2>
       <span class="md:text-left mb-16 {% if section.settings.bg == "bg-black" %}text-white{% endif %} {% if section.settings.p_mobile_text_center %}text-center{% endif %}">{{ section.settings.p }}</span>
       <a class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 {% if section.settings.btn_text == blank %}hidden{% endif %}" href="{{ section.settings.link }}">
         {{ section.settings.btn_text }}
