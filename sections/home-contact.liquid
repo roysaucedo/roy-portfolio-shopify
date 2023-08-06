@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient bg-gradient">
+<div class="color-{{ section.settings.color_scheme }} {{ section.settings.bg }}">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       <h2 class="uppercase font-bold text-7xl md:text-9xl mb-8 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -192,6 +192,26 @@
       "type": "textarea",
       "label": "Form paragraph",
       "id": "text"
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "options": [
+        {
+          "value": "bg-gradient",
+          "label": "Gradient"
+        },
+        {
+          "value": "bg-black",
+          "label": "Black"
+        },
+        {
+          "value": "",
+          "label": "White"
+        }
+      ],
+      "label": "Background Option",
+      "default": "bg-gradient"
     },
     {
       "type": "color_scheme",
