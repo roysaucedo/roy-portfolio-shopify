@@ -5,17 +5,49 @@
       "settings": {
         "img_left": false,
         "bg": "bg-gradient",
-        "h2": "SHOPIFY DEVELOPER WITH SAUCE 🔥",
+        "h2": "TAKE YOUR SHOPIFY THEME TO THE NEXT LEVEL 🚀",
         "p_mobile_text_center": true,
-        "p": "<p>Hi, I'm Roy Saucedo. 👋 I'm a Frontend Developer with a background in digital marketing. For the past 4 years, I've been building websites that not only look amazing but also drive results. I'm passionate about helping business owners achieve their goals by combining my coding expertise with a deep understanding of digital marketing strategies. 🏆<\/p>",
+        "p": "<p>Hi, I'm Roy Saucedo. 👋 I'm a Frontend Shopify Developer with a background in digital marketing. For the past 4 years, I've been building websites that not only look amazing but also drive results. I'm passionate about helping business owners achieve their goals by combining my coding expertise with a deep understanding of digital marketing strategies. 🏆<\/p>",
         "link": "shopify:\/\/pages\/projects",
         "btn_text": "Explore My Projects →",
         "img": "shopify:\/\/shop_images\/image_3_5.png",
-        "padding_top": 36,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "46b71bec-9ea3-4ed8-9107-8e2ae4ff88b8": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/2pURxIyTRVw",
+        "cover_image": "shopify:\/\/shop_images\/Slide_3.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
     "0a1f1c09-33a5-426e-922c-ca78215347c2": {
+      "type": "home-hero",
+      "disabled": true,
+      "settings": {
+        "img_left": true,
+        "bg": "bg-gradient",
+        "h2": "ABOUT ME",
+        "p_mobile_text_center": false,
+        "p": "<p>For the past 4 years, I've been building websites that not only look amazing but also drive results. I'm passionate about helping business owners achieve their goals by combining my coding expertise with a deep understanding of digital marketing strategies. 🏆<\/p>",
+        "link": "",
+        "btn_text": "",
+        "img": "shopify:\/\/shop_images\/image_1_5.png",
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    },
+    "bc380992-2ebe-4db3-9656-8033760de115": {
       "type": "home-hero",
       "settings": {
         "img_left": true,
@@ -68,7 +100,7 @@
       ],
       "settings": {
         "img_left": false,
-        "hover": true,
+        "hover": false,
         "bg": "bg-gradient",
         "h2": "Projects",
         "p_mobile_text_center": true,
@@ -161,7 +193,9 @@
   },
   "order": [
     "e03a656a-c6f9-42f2-a48c-0401b3292f3e",
+    "46b71bec-9ea3-4ed8-9107-8e2ae4ff88b8",
     "0a1f1c09-33a5-426e-922c-ca78215347c2",
+    "bc380992-2ebe-4db3-9656-8033760de115",
     "cbb929e5-3011-4a7f-800d-93b66a0befe1",
     "e106b1fc-6498-493f-8bfb-5c649bec86f0",
     "a922287a-d6b1-42da-af41-9a9f5b06b229"

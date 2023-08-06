@@ -303,9 +303,9 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% comment %} {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {% comment %} {% render 'header-search', input_id: 'Search-In-Modal' %} {% endcomment %}
 
-      {%- if shop.customer_accounts_enabled -%}
+      {% comment %} {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
           <span class="visually-hidden">
@@ -343,8 +343,8 @@
             {%- endif -%}
             <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
           </div>
-        {%- endif -%}
-      </a> {% endcomment %}
+        {%- endif -%} 
+      </a>{% endcomment %}
       <a class="text-center text-[14px] no-underline text-black border-2 border-slate-500 px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 max-sm:hidden" href="{{ section.settings.url }}">
         {{ section.settings.btn_txt }}
       </a>
