@@ -101,7 +101,7 @@
       "settings": {
         "img_left": false,
         "hover": false,
-        "bg": "bg-gradient",
+        "bg": "",
         "h2": "Projects",
         "p_mobile_text_center": true,
         "stars": false,
