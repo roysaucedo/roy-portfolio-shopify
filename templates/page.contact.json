@@ -3,8 +3,10 @@
     "e4f950b1-f52f-4265-b1c2-f26c13eb6fde": {
       "type": "home-contact",
       "settings": {
-        "heading": "LET'S CONNECT",
+        "heading": "GET A FREE QUOTE",
         "heading_size": "h1",
+        "text": "",
+        "bg": "bg-gradient",
         "color_scheme": "",
         "padding_top": 100,
         "padding_bottom": 100
