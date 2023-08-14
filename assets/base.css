@@ -272,7 +272,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: Futura-CondensedExtraBold, , sans-serif !important;
+  font-family: Futura-CondensedExtraBold, sans-serif !important;
   letter-spacing: -1px;
   /* font-family: var(--font-heading-family); */
   font-style: var(--font-heading-style);
