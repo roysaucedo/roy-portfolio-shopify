@@ -285,7 +285,7 @@ h5,
 }
 
 @font-face {
-    font-family: 'Futura-CondensedExtraBold';
+    font-family: 'Futura-CondensedExtraBold', sans-serif;
     src: url('./Futura-CondensedExtraBold.woff2') format('woff2'),
         url('./Futura-CondensedExtraBold.woff') format('woff');
     font-weight: bold;
