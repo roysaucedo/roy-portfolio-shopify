@@ -96,18 +96,18 @@
           "type": "card",
           "disabled": true,
           "settings": {
-            "title": "Card Title",
+            "title": "Kitchen Witches",
             "p": "",
-            "link": ""
+            "link": "https:\/\/kitchen-witches.vercel.app\/"
           }
         },
         "c99c6a24-960e-4515-830d-c1014ebf3a6c": {
           "type": "card",
           "disabled": true,
           "settings": {
-            "title": "Card Title",
+            "title": "Bible Buddy",
             "p": "",
-            "link": ""
+            "link": "https:\/\/www.biblebuddy.co\/"
           }
         },
         "5e1a801a-0a2e-49f7-bd9d-a97bfc5f05ef": {
