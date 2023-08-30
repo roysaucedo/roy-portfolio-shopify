@@ -54,7 +54,10 @@
       "settings": {
         "img_left": true,
         "bg": "bg-black",
+<<<<<<< HEAD
         "subheader": "",
+=======
+>>>>>>> dfaaf9bebe08b05af2d2dc08d4896ac5b17ed329
         "h2": "Skills & Services",
         "p_mobile_text_center": false,
         "p": "<p>→ Landing Page Design & Development<\/p><p>→ Custom Shopify Theme Development<\/p><p>→ UX\/UI Design (Figma Wireframes)<\/p><p>→ Shopify & 3rd Party App Integrations<\/p>",
