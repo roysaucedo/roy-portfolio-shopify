@@ -107,7 +107,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
 }
 
 .page-width.drawer-menu {
-  max-width: 100%;
+  max-width: 1440px;
 }
 
 .page-width-desktop {
