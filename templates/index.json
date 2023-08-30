@@ -5,13 +5,14 @@
       "settings": {
         "img_left": false,
         "bg": "bg-gradient",
-        "h2": "TAKE YOUR WEBSITE TO THE NEXT LEVEL 🚀",
+        "subheader": "Welcome to Sauce Studios",
+        "h2": "Custom Web Design & Development",
         "p_mobile_text_center": true,
         "p": "<p>Hi, I'm Roy Saucedo. 👋 I'm a Frontend Web Developer with a background in digital marketing. For the past 4 years, I've been building websites that not only look amazing but also drive results. I'm passionate about helping business owners achieve their goals by combining my coding expertise with a deep understanding of digital marketing strategies. 🏆<\/p>",
         "link": "shopify:\/\/pages\/projects",
         "btn_text": "Explore My Projects →",
         "img": "shopify:\/\/shop_images\/Group_108_2_1.png",
-        "padding_top": 64,
+        "padding_top": 56,
         "padding_bottom": 64
       }
     },
@@ -37,6 +38,7 @@
       "settings": {
         "img_left": true,
         "bg": "bg-gradient",
+        "subheader": "Welcome to Sauce Studios",
         "h2": "ABOUT ME",
         "p_mobile_text_center": false,
         "p": "<p>For the past 4 years, I've been building websites that not only look amazing but also drive results. I'm passionate about helping business owners achieve their goals by combining my coding expertise with a deep understanding of digital marketing strategies. 🏆<\/p>",
@@ -52,7 +54,8 @@
       "settings": {
         "img_left": true,
         "bg": "bg-black",
-        "h2": "SKILLS & SERVICES",
+        "subheader": "",
+        "h2": "Skills & Services",
         "p_mobile_text_center": false,
         "p": "<p>→ Landing Page Design & Development<\/p><p>→ Custom Shopify Theme Development<\/p><p>→ UX\/UI Design (Figma Wireframes)<\/p><p>→ Shopify & 3rd Party App Integrations<\/p>",
         "link": "",
@@ -203,7 +206,7 @@
         "img_left": false,
         "hover": false,
         "bg": "bg-black",
-        "h2": "REVIEWS",
+        "h2": "Reviews",
         "p_mobile_text_center": true,
         "stars": true,
         "padding_top": 84,
@@ -213,7 +216,7 @@
     "a922287a-d6b1-42da-af41-9a9f5b06b229": {
       "type": "home-contact",
       "settings": {
-        "heading": "GET A FREE QUOTE",
+        "heading": "Get A Free Quote",
         "heading_size": "h1",
         "text": "Tell me more about your business, and your project\/vision. I'll get back to you within 1-2 business days!\n\n📞 Feel free to call or text me at: ‪(949) 414-6883‬",
         "bg": "bg-gradient",
