@@ -233,7 +233,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>TESTSTTTSTSTS<\/p>",
             "page": ""
           }
         },
