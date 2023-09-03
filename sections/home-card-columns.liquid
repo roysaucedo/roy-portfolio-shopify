@@ -19,7 +19,7 @@
       <h2 class="text-center md:text-left font-bold text-6xl md:text-8xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">
         {{ section.settings.h2 }}
       </h2>
-      <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
+      <div class="w-full grid-tw grid-cols-1 md:grid-cols-3 gap-4 py-10">
         {% for block in section.blocks %}
           <a href="{{ block.settings.link }}" target="_blank">
             <div class="flex flex-col justify-between h-full p-8 bg-gray-100 border-2 border-gray-400 rounded-xl ease-in-out duration-300 shadow-md {% if section.settings.hover %}hover:scale-105 hover:rotate-2 hover:shadow-xl{% endif %}">
