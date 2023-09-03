@@ -272,7 +272,6 @@ h5,
 .h3,
 .h4,
 .h5 {
-  /* font-family: Futura-CondensedExtraBold, sans-serif !important; */
   letter-spacing: -1px;
   font-family: var(--font-heading-family);
   font-style: var(--font-heading-style);
@@ -284,14 +283,7 @@ h5,
   /* text-transform: uppercase; */
 }
 
-@font-face {
-    font-family: 'Futura-CondensedExtraBold', sans-serif;
-    src: url('./Futura-CondensedExtraBold.woff2') format('woff2'),
-        url('./Futura-CondensedExtraBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 .hxl {
   font-size: calc(var(--font-heading-scale) * 5rem);
@@ -351,8 +343,7 @@ h3,
 
 h4,
 .h4 {
-  /* font-family: var(--font-heading-family); */
-  font-family: Futura-CondensedExtraBold, sans-serif !important;
+  font-family: var(--font-heading-family);
   font-style: var(--font-heading-style);
   font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
