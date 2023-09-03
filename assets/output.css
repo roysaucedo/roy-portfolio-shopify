@@ -590,6 +590,10 @@ h2 {
   --tw-gradient-to: #bbf7d0 var(--tw-gradient-to-position);
 }
 
+.grid-tw {
+  display: grid;
+}
+
 .fixed {
   position: fixed;
 }
@@ -858,10 +862,6 @@ h2 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.grid-tw {
-  display: grid;
-}
-
 .hover\:rotate-2:hover {
   --tw-rotate: 2deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -943,3 +943,5 @@ h2 {
     line-height: 1;
   }
 }
+  
+  

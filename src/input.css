@@ -5,6 +5,10 @@
     @apply bg-gradient-to-tr from-white from-50% via-cyan-100 to-green-200
 }
 
+.grid-tw {
+  @apply grid
+}
+
 @tailwind utilities;
 
 
@@ -19,6 +23,4 @@
     }
   }
   
-  .grid-tw {
-    @apply grid
-  }
+  
