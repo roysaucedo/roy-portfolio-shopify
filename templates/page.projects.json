@@ -47,7 +47,7 @@
       "settings": {
         "img_left": false,
         "hover": false,
-        "bg": "bg-gradient",
+        "bg": "",
         "h2": "PROJECTS",
         "p_mobile_text_center": true,
         "stars": false,
