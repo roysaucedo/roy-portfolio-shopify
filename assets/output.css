@@ -704,6 +704,10 @@ h2 {
   flex-wrap: wrap;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
