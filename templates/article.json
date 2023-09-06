@@ -33,7 +33,7 @@
     "7cc1e43c-9ab4-4a66-b82e-3b240518a8e0": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Here is some more <span style=\"text-decoration:underline\">Sauce<\/span> for you:",
+        "heading": "Here are some more <span style=\"text-decoration:underline\">Sauce<\/span> articles for you:",
         "heading_size": "h1",
         "blog": "the-sauce",
         "post_limit": 3,
