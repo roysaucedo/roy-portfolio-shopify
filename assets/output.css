@@ -648,9 +648,9 @@ h2 {
   display: table;
 }
 
-.grid {
+/* .grid {
   display: grid;
-}
+} */
 
 .hidden {
   display: none;
