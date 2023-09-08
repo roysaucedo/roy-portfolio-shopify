@@ -652,9 +652,9 @@ h2 {
   display: table;
 }
 
-.grid {
+/* .grid {
   display: grid;
-}
+} */
 
 .hidden {
   display: none;
@@ -670,6 +670,18 @@ h2 {
 
 .w-full {
   width: 100%;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-7xl {
@@ -825,6 +837,10 @@ h2 {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .text-center {

@@ -29,15 +29,25 @@
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
     -%}
-  <div class="flex flex-wrap gap-4 pb-10">
-    <div class="px-6 py-2 rounded-full border-2 border-gray">
-      <p>📲 Call or text: (949) 414-6883</p>
+    <div class="flex flex-wrap gap-4 pb-10">
+      <div class="px-6 py-2 rounded-full border-2 border-gray">
+        <p>📲 Call or text: (949) 414-6883</p>
+      </div>
+      <div class="px-6 py-2 rounded-full border-2 border-gray">
+        <p>
+          📅
+          <a
+            href="https://calendly.com/sauce-studios/30min"
+            target="_blank"
+            title="https://calendly.com/sauce-studios/30min"
+            ><span>Schedule a 30 min call</span></a
+          >
+        </p>
+      </div>
     </div>
-    <div class="px-6 py-2 rounded-full border-2 border-gray">
-      <p>📅 <a href="https://calendly.com/sauce-studios/30min" target="_blank" title="https://calendly.com/sauce-studios/30min"><span >Click here to schedule a 30 min call</span></a></p>
+    <div class="pb-10 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {{ section.settings.text }}
     </div>
-  </div>
-  <div class="pb-10 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.text }}</div>
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
@@ -115,7 +125,37 @@
           placeholder="website"
           aria-required="true"
         >
-        <label class="field__label" for="ContactForm-website">Website<span aria-hidden="true">*</span></label>
+        <label class="field__label" for="ContactForm-website">Website URL<span aria-hidden="true">*</span></label>
+      </div>
+      <svg style="display: none">
+            <symbol id="icon-caret" viewBox="0 0 10 6">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+            </symbol>
+          </svg>
+      <div class="field">
+        <div class="select">
+          <select
+            id="ContactForm-service"
+            class="field__input select__select"
+            autocomplete="service"
+            name="contact[service]"
+            placeholder="service"
+            aria-required="true"
+            style="font-size: inherit; padding-top: 0.8rem;"
+          >
+            <option disabled selected>Select a service</option>
+            <option value="Custom Shopify Development">Shopify Landing Page</option>
+            <option value="Custom Shopify Section">Shopify Section</option>
+            <option value="Custom Webflow Website">Webflow Website</option>
+          </select>
+          <svg class="icon-carat w-10 pr-4" aria-hidden="true" focusable="false" viewBox="0 0 10 6">
+            <use href="#icon-caret" />
+          </svg>
+        </div>
+
+        <label style="visibility: hidden;" class="field__label" for="ContactForm-service"
+          >Select a service<span aria-hidden="true">*</span></label
+        >
       </div>
       <div class="field">
         <input
@@ -153,7 +193,10 @@
         </label>
       </div>
       <div class="contact__button">
-        <button type="submit" class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0">
+        <button
+          type="submit"
+          class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0"
+        >
           {{ 'templates.contact.form.send' | t }}
         </button>
       </div>
