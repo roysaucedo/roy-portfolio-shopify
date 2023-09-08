@@ -218,7 +218,7 @@
       "settings": {
         "heading": "Get a free quote",
         "heading_size": "h1",
-        "text": "<p>📲 Call or text: ‪(949) 414-6883‬<\/p><p>📅 <a href=\"https:\/\/calendly.com\/sauce-studios\/30min\" target=\"_blank\" title=\"https:\/\/calendly.com\/sauce-studios\/30min\"><span style=\"text-decoration:underline\">Click here to schedule a 30 min call<\/span><\/a><\/p><p>Tell me more about your business, and your project\/vision. I'll get back to you within 1-2 business days!<\/p>",
+        "text": "<p><strong>📲 Call or text:<\/strong> ‪(949) 414-6883‬<\/p><p>📅 <a href=\"https:\/\/calendly.com\/sauce-studios\/30min\" target=\"_blank\" title=\"https:\/\/calendly.com\/sauce-studios\/30min\"><span style=\"text-decoration:underline\"><strong>Click here<\/strong><\/span><\/a> to schedule a 30 min call<\/p><p>Tell me more about your business, and your project\/vision. I'll get back to you within 1-2 business days!<\/p>",
         "bg": "",
         "color_scheme": "",
         "padding_top": 100,
