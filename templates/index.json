@@ -8,7 +8,7 @@
         "subheader": "Shopify | Webflow | Custom Code",
         "h2": "Custom Web Design & Development",
         "p_mobile_text_center": true,
-        "p": "<p>Hi, I'm Roy Saucedo. 👋<\/p><p>I help local businesses convert web visitors into loyal customers. I operate as your marketing and tech partner so you can focus on running your business.<\/p>",
+        "p": "<p>Hi, I'm Roy Saucedo. 👋 I help local businesses convert web visitors into loyal customers. I operate as <span style=\"text-decoration:underline\"><em><strong>your marketing and tech partner<\/strong><\/em><\/span> so you can focus on running your business.<\/p>",
         "link": "shopify:\/\/pages\/projects",
         "btn_text": "Explore Projects →",
         "img": "shopify:\/\/shop_images\/Group_108_2_1.png",
