@@ -37,12 +37,39 @@
             "p": "",
             "link": "https:\/\/shotgunshock.com\/"
           }
+        },
+        "93c7d5cb-6c06-4b2d-bcea-4d54343f1d6f": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "6a5fa837-b612-464c-961e-f715d1edfc28": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
+        },
+        "2bb9346b-dc11-4e31-8dd6-de4ee8377328": {
+          "type": "card",
+          "settings": {
+            "title": "Card Title",
+            "p": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "135a768f-44dd-49ac-93b4-077ed3707b3c",
         "86c291a8-0674-4a81-87fc-77d1eda18038",
-        "d136b422-27ca-4246-b4e5-5932f3dc15aa"
+        "d136b422-27ca-4246-b4e5-5932f3dc15aa",
+        "93c7d5cb-6c06-4b2d-bcea-4d54343f1d6f",
+        "6a5fa837-b612-464c-961e-f715d1edfc28",
+        "2bb9346b-dc11-4e31-8dd6-de4ee8377328"
       ],
       "settings": {
         "img_left": false,
