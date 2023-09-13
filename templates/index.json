@@ -58,8 +58,8 @@
         "h2": "Skills & Services",
         "p_mobile_text_center": false,
         "p": "<p>→ Landing Page Design & Development<\/p><p>→ Custom Shopify Theme Development<\/p><p>→ UX\/UI Design (Figma Wireframes)<\/p><p>→ Shopify & 3rd Party App Integrations<\/p>",
-        "link": "",
-        "btn_text": "",
+        "link": "shopify:\/\/pages\/shopify-section-gallery",
+        "btn_text": "View Services →",
         "img": "shopify:\/\/shop_images\/image_1_5.png",
         "padding_top": 84,
         "padding_bottom": 84
@@ -142,6 +142,7 @@
         "5e1a801a-0a2e-49f7-bd9d-a97bfc5f05ef"
       ],
       "settings": {
+        "id_link": "",
         "img_left": false,
         "hover": false,
         "bg": "",
@@ -213,6 +214,7 @@
         "68553561-8395-4053-af89-5ab18e72dd1d"
       ],
       "settings": {
+        "id_link": "",
         "img_left": false,
         "hover": false,
         "bg": "bg-black",
