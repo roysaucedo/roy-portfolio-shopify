@@ -95,10 +95,19 @@
             "link": "https:\/\/shotgunshock.com\/"
           }
         },
+        "3c8109d9-7e61-4a21-b2a8-22b42e41c819": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_7_1.png",
+            "title": "Above Water Rentals",
+            "p": "",
+            "link": "https:\/\/www.abovewaterrentals.com\/"
+          }
+        },
         "518b8ae2-cd06-4ddc-8b2b-13c2084d44ad": {
           "type": "card",
-          "disabled": true,
           "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_8_1.png",
             "title": "Kitchen Witches",
             "p": "",
             "link": "https:\/\/kitchen-witches.vercel.app\/"
@@ -106,8 +115,8 @@
         },
         "c99c6a24-960e-4515-830d-c1014ebf3a6c": {
           "type": "card",
-          "disabled": true,
           "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_9_1.png",
             "title": "Bible Buddy",
             "p": "",
             "link": "https:\/\/www.biblebuddy.co\/"
@@ -127,6 +136,7 @@
         "62b18e42-6472-44fd-955f-a63d52b02d0e",
         "f6923ab7-3487-4912-ad31-efbe4b7d1b0d",
         "f51973e2-f4b5-40f9-8759-1834ab959b1c",
+        "3c8109d9-7e61-4a21-b2a8-22b42e41c819",
         "518b8ae2-cd06-4ddc-8b2b-13c2084d44ad",
         "c99c6a24-960e-4515-830d-c1014ebf3a6c",
         "5e1a801a-0a2e-49f7-bd9d-a97bfc5f05ef"
