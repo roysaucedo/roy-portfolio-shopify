@@ -31,11 +31,23 @@
             "button_label": "Get Started →",
             "button_link": "shopify:\/\/pages\/contact"
           }
+        },
+        "e20f92f0-fe77-4ad9-b4a7-e9c7765741f7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zx2c5zmpirbt8e0j4p4smtb1oa2d.webp",
+            "caption": "",
+            "heading": "Landing Page Design & Development",
+            "text": "<p>Unlock the power of high-converting landing pages. Our services include:<\/p><ul><li>✅ Stunning Design<br\/>✅ Conversion Optimization<br\/>✅ Mobile Responsiveness<br\/>✅ SEO Enhancement<br\/>✅ Analytics Integration<br\/>✅ Lightning-Fast Loading<\/li><\/ul>",
+            "button_label": "Get Started →",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
         }
       },
       "block_order": [
         "template--20897371947283__24252271-3b43-4054-bf63-3c5ba7322b26-row-1",
-        "324fc0f5-b516-438e-99a6-8109abca4848"
+        "324fc0f5-b516-438e-99a6-8109abca4848",
+        "e20f92f0-fe77-4ad9-b4a7-e9c7765741f7"
       ],
       "settings": {
         "image_height": "medium",
