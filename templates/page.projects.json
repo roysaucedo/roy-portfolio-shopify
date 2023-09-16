@@ -2,10 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "184b1d24-1827-483c-942d-3c58c1664bb3": {
@@ -79,11 +78,11 @@
         "img_left": false,
         "hover": false,
         "bg": "",
-        "h2": "Projects",
+        "h2": "",
         "p_mobile_text_center": true,
         "stars": false,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 32
       }
     }
   },
