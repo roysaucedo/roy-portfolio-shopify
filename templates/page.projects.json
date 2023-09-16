@@ -50,9 +50,10 @@
         "6a5fa837-b612-464c-961e-f715d1edfc28": {
           "type": "card",
           "settings": {
-            "title": "Card Title",
+            "img": "shopify:\/\/shop_images\/Project_Image_8_1.png",
+            "title": "Kitchen Witches",
             "p": "",
-            "link": ""
+            "link": "https:\/\/kitchen-witches.vercel.app\/"
           }
         },
         "2bb9346b-dc11-4e31-8dd6-de4ee8377328": {
