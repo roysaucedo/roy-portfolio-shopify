@@ -59,9 +59,10 @@
         "2bb9346b-dc11-4e31-8dd6-de4ee8377328": {
           "type": "card",
           "settings": {
-            "title": "Card Title",
+            "img": "shopify:\/\/shop_images\/Project_Image_9_1.png",
+            "title": "Bible Buddy",
             "p": "",
-            "link": ""
+            "link": "https:\/\/www.biblebuddy.co\/"
           }
         }
       },
