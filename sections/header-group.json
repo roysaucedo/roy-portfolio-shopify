@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Text (949) 414-6883 for a quick response",
             "link": ""
           }
         }
@@ -16,9 +16,8 @@
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "show_line_separator": true,
         "auto_rotate": false,
         "change_slides_speed": 5
