@@ -231,7 +231,7 @@
         "heading": "Get a free quote",
         "heading_size": "h1",
         "text": "<p>Tell me more about your business, and your project\/vision. I'll get back to you within 1-2 business days!<\/p>",
-        "bg": "bg-gradient",
+        "bg": "",
         "color_scheme": "",
         "padding_top": 100,
         "padding_bottom": 100
