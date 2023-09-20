@@ -672,16 +672,8 @@ h2 {
   width: 100%;
 }
 
-.max-w-7xl {
-  max-width: 80rem;
-}
-
 .max-w-md {
   max-width: 28rem;
-}
-
-.grow {
-  flex-grow: 1;
 }
 
 .transform {
@@ -844,6 +836,10 @@ h2 {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
