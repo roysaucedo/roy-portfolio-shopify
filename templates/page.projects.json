@@ -66,6 +66,15 @@
             "p": "",
             "link": "https:\/\/www.biblebuddy.co\/"
           }
+        },
+        "c6bdc37f-cbdc-42b3-88e6-8838c80ced1a": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_11.png",
+            "title": "Raining Ink Tattoo Studio",
+            "p": "",
+            "link": "https:\/\/raininginktattoostudio.com\/"
+          }
         }
       },
       "block_order": [
@@ -74,7 +83,8 @@
         "d136b422-27ca-4246-b4e5-5932f3dc15aa",
         "93c7d5cb-6c06-4b2d-bcea-4d54343f1d6f",
         "6a5fa837-b612-464c-961e-f715d1edfc28",
-        "2bb9346b-dc11-4e31-8dd6-de4ee8377328"
+        "2bb9346b-dc11-4e31-8dd6-de4ee8377328",
+        "c6bdc37f-cbdc-42b3-88e6-8838c80ced1a"
       ],
       "settings": {
         "id_link": "",
