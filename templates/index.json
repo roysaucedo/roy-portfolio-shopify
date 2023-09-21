@@ -124,11 +124,11 @@
         },
         "5e1a801a-0a2e-49f7-bd9d-a97bfc5f05ef": {
           "type": "card",
-          "disabled": true,
           "settings": {
-            "title": "Card Title",
+            "img": "shopify:\/\/shop_images\/Project_Image.jpg",
+            "title": "Raining Ink Tattoo Studio",
             "p": "",
-            "link": ""
+            "link": "https:\/\/raininginktattoostudio.com\/"
           }
         }
       },
