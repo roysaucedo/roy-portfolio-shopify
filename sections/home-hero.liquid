@@ -19,14 +19,30 @@
       <h1 class="text-center md:text-left font-extrabold text-6xl md:text-8xl mb-8 {% if section.settings.bg == "bg-black" %}text-white{% endif %}">
         {{ section.settings.h2 }}
       </h1>
-      {% if section.settings.subheader != blank %}
-      <p class="text-center md:text-left text-2xl md:text-4xl mb-6 font-medium {% if section.settings.bg == "bg-black" %}text-white{% endif %}">{{ section.settings.subheader }}</p>
-      {% endif %}
-      <span class="md:text-left mb-16 md:pr-24 {% if section.settings.bg == "bg-black" %}text-white{% endif %} {% if section.settings.p_mobile_text_center %}text-center{% endif %}">
-        {{- section.settings.p -}}
-      </span>
+    <span class="md:text-left mb-4 md:pr-24 {% if section.settings.bg == "bg-black" %}text-white{% endif %} {% if section.settings.p_mobile_text_center %}text-center{% endif %}">
+      {{- section.settings.p -}}
+    </span>
+    {% if section.settings.subheader != blank %}
+    <div class="flex gap-4 flex-wrap py-4 mb-2 flex-col items-center md:flex-row">
+        <div class="flex items-center gap-2">
+        <i class="fa-regular fa-circle-check fa-xl" style="color: #1dbf81;"></i>
+        <p>Quick & Easy Set Up</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <i class="fa-regular fa-circle-check fa-xl" style="color: #1dbf81;"></i>
+        <p>Responsive Communication</p>
+      </div>
+    
+      </div>
+      
+    {% endif %}
+      
+      
+      
+      
+      
       <a
-        class="text-center no-underline text-white bg-black px-8 py-4 rounded-lg max-w-md mx-auto md:mx-0 {% if section.settings.btn_text == blank %}hidden{% endif %}"
+        class="text-center no-underline text-white bg-black px-8 py-4 mt-6 rounded-lg max-w-sm mx-auto md:mx-0 {% if section.settings.btn_text == blank %}hidden{% endif %}"
         href="{{ section.settings.link }}"
       >
         {{ section.settings.btn_text }}
