@@ -249,6 +249,7 @@
         },
         "template--19312199827731__e2869537-879d-4252-87e5-251cec332b26-paragraph-1": {
           "type": "paragraph",
+          "disabled": true,
           "settings": {
             "text": "<p>The weekly newsletter for designers and developers who want to earn more and live a wealthy life.<\/p>"
           }
