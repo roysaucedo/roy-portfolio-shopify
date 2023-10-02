@@ -130,6 +130,15 @@
             "p": "",
             "link": "https:\/\/raininginktattoostudio.com\/"
           }
+        },
+        "b31fdd74-0dcc-40e0-a747-c93dce91f621": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_12.png",
+            "title": "Raven N. Therapy Practice",
+            "p": "",
+            "link": "https:\/\/www.ravennavarrete.com\/"
+          }
         }
       },
       "block_order": [
@@ -139,7 +148,8 @@
         "3c8109d9-7e61-4a21-b2a8-22b42e41c819",
         "518b8ae2-cd06-4ddc-8b2b-13c2084d44ad",
         "c99c6a24-960e-4515-830d-c1014ebf3a6c",
-        "5e1a801a-0a2e-49f7-bd9d-a97bfc5f05ef"
+        "5e1a801a-0a2e-49f7-bd9d-a97bfc5f05ef",
+        "b31fdd74-0dcc-40e0-a747-c93dce91f621"
       ],
       "settings": {
         "id_link": "",
