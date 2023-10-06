@@ -133,8 +133,8 @@
         },
         "24e5463c-8ed9-4d62-9799-bed02bc31ac0": {
           "type": "card",
-          "disabled": true,
           "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_13.png",
             "title": "Happy Jewelers",
             "p": "",
             "link": "https:\/\/happyjewelers.com\/"
