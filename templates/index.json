@@ -131,6 +131,15 @@
             "link": "https:\/\/www.ravennavarrete.com\/"
           }
         },
+        "24e5463c-8ed9-4d62-9799-bed02bc31ac0": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Happy Jewelers",
+            "p": "",
+            "link": "https:\/\/happyjewelers.com\/"
+          }
+        },
         "f6923ab7-3487-4912-ad31-efbe4b7d1b0d": {
           "type": "card",
           "disabled": true,
@@ -150,6 +159,7 @@
         "c99c6a24-960e-4515-830d-c1014ebf3a6c",
         "5e1a801a-0a2e-49f7-bd9d-a97bfc5f05ef",
         "b31fdd74-0dcc-40e0-a747-c93dce91f621",
+        "24e5463c-8ed9-4d62-9799-bed02bc31ac0",
         "f6923ab7-3487-4912-ad31-efbe4b7d1b0d"
       ],
       "settings": {
