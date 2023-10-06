@@ -24,6 +24,7 @@
         },
         "86c291a8-0674-4a81-87fc-77d1eda18038": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Project_Image_6.png",
             "title": "Bentgo",
@@ -84,6 +85,15 @@
             "p": "",
             "link": "https:\/\/www.ravennavarrete.com\/"
           }
+        },
+        "cdec6f24-0e81-40bc-bace-097362b4b451": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Project_Image_13.png",
+            "title": "Happy Jewelers",
+            "p": "",
+            "link": "https:\/\/happyjewelers.com\/"
+          }
         }
       },
       "block_order": [
@@ -94,7 +104,8 @@
         "6a5fa837-b612-464c-961e-f715d1edfc28",
         "2bb9346b-dc11-4e31-8dd6-de4ee8377328",
         "c6bdc37f-cbdc-42b3-88e6-8838c80ced1a",
-        "6e0960bc-7b21-4b38-bce7-5d44626f0984"
+        "6e0960bc-7b21-4b38-bce7-5d44626f0984",
+        "cdec6f24-0e81-40bc-bace-097362b4b451"
       ],
       "settings": {
         "id_link": "",
