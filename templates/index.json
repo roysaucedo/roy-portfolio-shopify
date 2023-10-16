@@ -51,6 +51,7 @@
     },
     "bc380992-2ebe-4db3-9656-8033760de115": {
       "type": "home-hero",
+      "disabled": true,
       "settings": {
         "img_left": true,
         "bg": "",
@@ -170,7 +171,7 @@
         "h2": "Projects",
         "p_mobile_text_center": true,
         "stars": false,
-        "padding_top": 84,
+        "padding_top": 40,
         "padding_bottom": 84
       }
     },
