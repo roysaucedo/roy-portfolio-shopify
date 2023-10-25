@@ -44,7 +44,8 @@
 
       {%- when 'title' -%}
         <header
-          class="page-width max-w-8xl{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          style="max-width: 1000px;"
+          class="page-width max-w-6xl{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
           <h1
@@ -67,7 +68,8 @@
 
       {%- when 'content' -%}
         <div
-          class="article-template__content page-width rte max-w-8xl{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="article-template__content page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          style="max-width: 1000px;"
           itemprop="articleBody"
           {{ block.shopify_attributes }}
         >
