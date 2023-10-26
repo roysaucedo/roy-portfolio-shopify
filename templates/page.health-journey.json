@@ -14,7 +14,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Week 1 Check-In: 10.26.2023",
-            "icon": "none",
+            "icon": "clipboard",
             "row_content": "<h3><strong>Weight:<\/strong><\/h3><h3><strong>Mile Run:<\/strong><\/h3><h3><strong>Max Push Ups:<\/strong><\/h3><h3><strong>Max Squats (2 min):<\/strong><\/h3><h3><strong>Max Burpees (2 min):<\/strong><\/h3><h3><strong>Max Pull Ups:<\/strong><\/h3>",
             "page": ""
           }
