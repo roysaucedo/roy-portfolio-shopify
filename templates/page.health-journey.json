@@ -15,7 +15,7 @@
           "settings": {
             "heading": "Weekly Check-In",
             "icon": "none",
-            "row_content": "<p><strong>Weight:<\/strong><\/p><p><strong>Push Ups:<\/strong><\/p><p><strong>Squats:<\/strong><\/p><p><strong>Burpees:<\/strong><\/p><p><strong>Pull Ups:<\/strong><\/p>",
+            "row_content": "<h3><strong>Weight:<\/strong><\/h3><h3><strong>Push Ups:<\/strong><\/h3><h3><strong>Squats:<\/strong><\/h3><h3><strong>Burpees:<\/strong><\/h3><h3><strong>Pull Ups:<\/strong><\/h3>",
             "page": ""
           }
         }
