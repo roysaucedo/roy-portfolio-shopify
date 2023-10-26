@@ -4,11 +4,63 @@
       "type": "main-page",
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
+      }
+    },
+    "bab3be92-ed97-4dc0-a810-bba943064f0f": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--21435167310099__bab3be92-ed97-4dc0-a810-bba943064f0f-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Weekly Check-In",
+            "icon": "none",
+            "row_content": "<p>Weight:<\/p><p>Push Ups:<\/p>",
+            "page": ""
+          }
+        },
+        "a2d3ead4-659a-4f3a-a727-d6c5743f29ee": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Weekly Check-In",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "69eb676f-7c9a-4b4c-962f-10f347533013": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Weekly Check-In",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21435167310099__bab3be92-ed97-4dc0-a810-bba943064f0f-collapsible_row-1",
+        "a2d3ead4-659a-4f3a-a727-d6c5743f29ee",
+        "69eb676f-7c9a-4b4c-962f-10f347533013"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bab3be92-ed97-4dc0-a810-bba943064f0f"
   ]
 }
