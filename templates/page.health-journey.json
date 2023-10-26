@@ -15,33 +15,13 @@
           "settings": {
             "heading": "Weekly Check-In",
             "icon": "none",
-            "row_content": "<p>Weight:<\/p><p>Push Ups:<\/p>",
-            "page": ""
-          }
-        },
-        "a2d3ead4-659a-4f3a-a727-d6c5743f29ee": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Weekly Check-In",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "69eb676f-7c9a-4b4c-962f-10f347533013": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Weekly Check-In",
-            "icon": "none",
-            "row_content": "",
+            "row_content": "<p><strong>Weight:<\/strong><\/p><p><strong>Push Ups:<\/strong><\/p><p><strong>Squats:<\/strong><\/p><p><strong>Burpees:<\/strong><\/p><p><strong>Pull Ups:<\/strong><\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "template--21435167310099__bab3be92-ed97-4dc0-a810-bba943064f0f-collapsible_row-1",
-        "a2d3ead4-659a-4f3a-a727-d6c5743f29ee",
-        "69eb676f-7c9a-4b4c-962f-10f347533013"
+        "template--21435167310099__bab3be92-ed97-4dc0-a810-bba943064f0f-collapsible_row-1"
       ],
       "settings": {
         "caption": "",
