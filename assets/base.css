@@ -260,6 +260,9 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
+body {
+  letter-spacing: 0px;
+}
 
 h1,
 h2,
